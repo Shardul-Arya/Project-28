@@ -10,7 +10,7 @@ class stone{
 		this.x=x;
 		this.y=y;
 		this.r=30;
-		this.image=loadImage("images/stone.png")
+		this.image=loadImage("stone.png")
 		this.body=Bodies.circle(this.x, this.y, 30, options)
 		World.add(world, this.body);
 	}
